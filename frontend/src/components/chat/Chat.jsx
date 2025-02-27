@@ -119,8 +119,7 @@ const Chat = () => {
       <div className="w-80 border-r border-gray-200 flex flex-col">
         <div className="p-5 border-b border-gray-200">
           <div className="flex items-center gap-1 mb-5">
-            <span className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-1 rounded text-lg">M</span>
-            <span className="text-lg text-gray-800">chat</span>
+            <img src="/mchat.png" alt="Mchat" className="h-8" />
           </div>
           <div className="search-bar">
             <input 

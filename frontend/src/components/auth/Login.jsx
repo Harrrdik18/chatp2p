@@ -37,9 +37,8 @@ const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-blue-200">
       <div className="bg-white p-10 rounded-2xl w-full max-w-md relative shadow-md">
-        <div className="flex items-center gap-1 mb-8">
-          <span className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-1 rounded text-2xl font-medium">M</span>
-          <span className="text-2xl text-gray-800">chat</span>
+        <div className="flex justify-center items-center gap-1 mb-8">
+          <img src="/mchat.png" alt="Mchat" className="h-10" />
         </div>
         
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
